@@ -1,0 +1,20 @@
+While the UI already shows historical runs, new users reading the docs may assume that only the latest few runs are visible. This gap between the interface behavior and the documentation creates unnecessary confusion, especially for:
+•	Users debugging older workflows
+•	Teams that need compliance/audit logs
+•	Developers configuring execution retention
+________________________________________
+What does this PR do?
+•	Updates the Executions Overview section in the docs
+•	Adds a new sub-section “Viewing Executions History”
+•	Explains clearly that:
+o	By default, historical executions are visible in the UI
+o	Visibility depends on retention and pruning settings
+o	Both successful and failed runs are included
+•	Adds a ⚠️ Note clarifying that this feature exists in the interface but was not previously documented
+________________________________________
+Why is this important?
+•	Aligns documentation with the actual behavior of the n8n interface
+•	Reduces confusion for first-time users
+•	Supports advanced users who rely on historical runs for compliance and debugging
+•	Provides a direct link to execution retention configuration for deeper context
+
