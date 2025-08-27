@@ -1,0 +1,19 @@
+
+The Executions Overview in n8n displays a list of all workflow executions, including both successful and failed runs.
+
+By default, the list includes all historical executions stored in the database.
+
+You can scroll or paginate through executions to review older runs.
+
+The details panel allows you to inspect input, output, and errors for each execution.
+
+⚠️ Note: The actual number of executions visible depends on your execution data retention settings
+. If pruning or limited storage is configured, older executions may not be available.
+
+Why This Update?
+
+Current documentation does not clearly state that the Executions Overview shows all historical executions.
+
+This creates confusion for new users who expect only recent runs to appear.
+
+Adding this clarification will help users understand the scope of history and how it connects to retention settings.
